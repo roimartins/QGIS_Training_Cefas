@@ -14,17 +14,38 @@
 
 > #### EXERCISE 1 - Create a table
 > 
->  - Create a table to collect information of the main towns in BVI
+>  - Create a table to collect information of the main islands in BVI
+>
+>   | town    |  
+> | ----------- |  
+> | Tortola  |  
+> | Beef Island  | 
+> | Anegada  |
+>
 >  - What attributes you would include? Add the attributes to your towns table ( population, employe , etc. ) 
->  - Scale the table to include other geographical references of BVI  ( islands, cay, bays , beach , etc.  ). Where you you would indicate the type of location you are including in the table?
->  - Could be all the information be included in a unique table?
+>
+>   | town    |  population | area (square miles) |
+> | ----------- | ----------- |   ----------- | 
+> | Tortola  |  23,491 | 21.5 |
+> | Virgin Gorda | 3,930 |8  |
+> | Anegada  | 285 |  15 |
+> 
+>  - Scale the table to include other geographical features of BVI  ( islands, cay, bays , beach , etc.  ). How you would indicate the category of the feature you are including in the table? Add another two geographicl features to this table
+>  
+>   | feature    | category | population | area (square miles) |
+> | ----------- | ----------- |   ----------- |  ----------- | 
+> | Tortola  | island | 23,491 | 21.5 |
+> | Virgin Gorda | island | 3,930 |8  |
+> | Anegada  | island| 285 |  15 |
 
-- ***What is SPATIAL data:*** Any information collected in the world is related to a spatial location.  
+- ***What is SPATIAL data:*** Any information collected in the world is related to a spatial location.  Abstraction of the real grographical features into spatial vector objects.
+
 
 
 > ***EXERCISE 2***
-> 
-> - What is the spatial information you can add to the table from Exercise 1 ?
+>
+> - A town can be represented as a point or polygon . How you would represent houses, a river, a road or a lake ? 
+> - What is the type of spatial object you would use to represent the  spatial information related to  Exercise 1 ?
 > - How you represent the spatial location of the records in Exercise 1 table (POINT, LINES or POLYGONS)?
 > - Add two new columns to your tables to include the geographical information of latitude and longitude
-> - Use teh [BVI map](http://www.skyviews.com/british-virgin-islands-map/BVI_Islands_Mapside.jpg) and google maps and get the coordinates in 
+> - Use teh [BVI map](http://www.skyviews.com/british-virgin-islands-map/BVI_Islands_Mapside.jpg) and [google maps](https://www.google.com/maps/@18.3995843,-64.694019,1589m/data=!3m1!1e3!5m1!1e4) and get the coordinates in 
